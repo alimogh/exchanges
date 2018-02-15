@@ -1,0 +1,28 @@
+{
+  "name": "exchanges",
+  "version": "1.0.0",
+  "description": "Exchanges API integrations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cointrage/exchanges.git"
+  },
+  "keywords": [
+    "cointrage",
+    "exchanges",
+    "api"
+  ],
+  "author": "Alexey Melnikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cointrage/exchanges/issues"
+  },
+  "homepage": "https://github.com/cointrage/exchanges#readme",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "request": "^2.83.0"
+  }
+}
