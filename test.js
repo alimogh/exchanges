@@ -4,7 +4,7 @@ const exchange = exchanges.Quoine;
 
 exchange.getMarkets()
     .then((m) => {
-        exchange.getOrderBook('BTC', 'ETH').then((b) => {
-            debug(b);
-        });
+        // exchange.getOrderBook('BTC', 'ETH').then((b) => {
+        //     debug(b);
+        // });
     });
