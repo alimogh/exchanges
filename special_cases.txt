@@ -1,2 +1,5 @@
 bitstamp
 btcc - add the getMarkets
+coinut
+quoine
+simex
