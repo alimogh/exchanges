@@ -1,10 +1,10 @@
 const debug = require('debug')('cointrage:exchanges:test');
 const exchanges = require('./index');
-const coinutExchange = exchanges.Coinut;
+const exchange = exchanges.Quoine;
 
-coinutExchange.getMarkets()
+exchange.getMarkets()
     .then((m) => {
-        coinutExchange.getOrderBook('BTC', 'ETH').then((b) => {
-            // debug(b);
+        exchange.getOrderBook('BTC', 'ETH').then((b) => {
+            debug(b);
         });
     });
