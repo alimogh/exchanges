@@ -1,6 +1,6 @@
 const debug = require('debug')('cointrage:exchanges:test');
 const exchanges = require('./index');
-const exchange = exchanges.Tidex;
+const exchange = exchanges.Coinexchange;
 
 async function init() {
     let markets = await exchange.getMarkets();
