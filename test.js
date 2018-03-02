@@ -1,13 +1,13 @@
 const debug = require('debug')('cointrage:exchanges:test');
 const exchanges = require('./index');
-const exchange = exchanges.Quoine;
+const exchange = exchanges.Tidex;
 
 async function init() {
     let markets = await exchange.getMarkets();
-    debug(markets);
+    console.log(markets);
 
     let orderBook = await exchange.getOrderBook('BTC', 'ETH');
-    debug(orderBook);
+    console.log(orderBook);
 }
 
 init();

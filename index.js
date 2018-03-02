@@ -60,5 +60,19 @@ module.exports = {
     'Wex': require('./lib/wex'),
     'YoBit': require('./lib/yobit'),
     'ZB': require('./lib/zb'),
+    'Binance': require('./lib/binance'),
+    'Bitfinex': require('./lib/bitfinex'),
+    'Bittrex': require('./lib/bittrex'),
+    'Coinexchange': require('./lib/coinexchange'),
+    'Cryptopia': require('./lib/cryptopia'),
+    'Gatecoin': require('./lib/gatecoin'),
+    'Huobi': require('./lib/huobi'),
+    'Idex': require('./lib/idex'),
+    'Kucoin': require('./lib/kucoin'),
+    'Liqui': require('./lib/liqui'),
+    'Mercatox': require('./lib/mercatox'),
+    'Okex': require('./lib/okex'),
+    'Qryptos': require('./lib/qryptos'),
+    'Tidex': require('./lib/tidex')
 
 };
