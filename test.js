@@ -6,7 +6,7 @@ async function init() {
     let markets = await exchange.getMarkets();
     console.log(markets);
 
-    // let orderBook = await exchange.getOrderBook('BTC', 'ETH');
+    // let orderBook = await exchange.getOrderBook('USD', 'DASH');
     // console.log(orderBook);
 }
 
