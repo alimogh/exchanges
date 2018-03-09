@@ -1,12 +1,12 @@
 const debug = require('debug')('cointrage:exchanges:test');
 const exchanges = require('./index');
-const exchange = exchanges.YoBit;
+const exchange = exchanges.Okex;
 
 async function init() {
-    // let markets = await exchange.getMarkets();
-    // console.log(markets);
+    let markets = await exchange.getMarkets();
+    console.log(markets);
 
-    let orderBook = await exchange.getOrderBook('BTC', 'DASH');
+    let orderBook = await exchange.getOrderBook('BTC', 'ETH');
     console.log(orderBook);
 }
 
