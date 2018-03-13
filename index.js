@@ -73,6 +73,7 @@ module.exports = {
     'Mercatox': require('./lib/mercatox'),
     'Okex': require('./lib/okex'),
     'Qryptos': require('./lib/qryptos'),
-    'Tidex': require('./lib/tidex')
+    'Tidex': require('./lib/tidex'),
+    'EtherDelta': require('./lib/etherdelta')
 
 };
