@@ -1,12 +1,12 @@
 const debug = require('debug')('cointrage:exchanges:test');
 const exchanges = require('./index');
-const exchange = exchanges.RightBTC;
+const exchange = exchanges.Qryptos;
 
 async function init() {
     let markets = await exchange.getMarkets();
     console.log(markets);
 
-    let orderBook = await exchange.getOrderBook('BTC', 'ETH');
+    let orderBook = await exchange.getOrderBook('ETH', 'AMLT');
     console.log(orderBook);
 }
 
