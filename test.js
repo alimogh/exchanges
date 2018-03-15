@@ -1,13 +1,17 @@
 const debug = require('debug')('cointrage:exchanges:test');
 const exchanges = require('./index');
-const exchange = exchanges.Qryptos;
+const exchange = exchanges.Bitfinex;
+
+const STANDARD_MAPPINGS = {
+    'DAT': 'DATA'
+};
 
 async function init() {
-    let markets = await exchange.getMarkets();
-    console.log(markets);
+    // let markets = await exchange.getMarkets();
+    // debug(markets);
 
-    let orderBook = await exchange.getOrderBook('ETH', 'AMLT');
-    console.log(orderBook);
+    let orderBook = await exchange.getOrderBook('BTC', 'DATA');
+    debug(orderBook);
 }
 
 init();
