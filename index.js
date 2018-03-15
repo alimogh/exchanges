@@ -35,6 +35,7 @@ module.exports = {
     'CossIO': require('./lib/cossio'),
     'Cryptox': require('./lib/cryptox'),
     'DSX': require('./lib/dsx'),
+    'Ethfinex': require('./lib/ethfinex'),
     'Exmo': require('./lib/exmo'),
     'EXX': require('./lib/exx'),
     'GateIO': require('./lib/gateio'),
