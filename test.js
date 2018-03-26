@@ -10,7 +10,7 @@ async function init() {
     // let markets = await exchange.getMarkets();
     // debug(markets);
 
-    // let orderBook = await exchange.getOrderBook('BTC', 'DATA');
+    // let orderBook = await exchange.getOrderBook('BTC', 'ETH');
     // debug(orderBook);
 
     // let accountInfo = await exchange.getAccountInfo({});
@@ -31,6 +31,11 @@ async function init() {
     // let ordersData = await exchange.getAllOrders(data);
     // debug(ordersData);
 
+    // const data = {
+    //     asset: 'ETH'
+    // };
+    // let depositsData = await exchange.getDepositAddress(data);
+    // debug(depositsData);
 
 }
 
