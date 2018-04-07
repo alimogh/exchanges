@@ -1,6 +1,6 @@
 const debug = require('debug')('cointrage:exchanges:test');
 const exchanges = require('./index');
-const exchange = exchanges.GateIO;
+const exchange = exchanges.Binance;
 
 const STANDARD_MAPPINGS = {
     'DAT': 'DATA'
@@ -10,8 +10,8 @@ async function init() {
     // let markets = await exchange.getMarkets();
     // debug(markets);
 
-    let orderBook = await exchange.getOrderBook('ETH', 'STORJ');
-    console.log(orderBook);
+    // let orderBook = await exchange.getOrderBook('BTC', 'ETH');
+    // debug(orderBook);
 
     // let accountInfo = await exchange.getAccountInfo({});
     // debug(accountInfo);
@@ -31,6 +31,11 @@ async function init() {
     // let ordersData = await exchange.getAllOrders(data);
     // debug(ordersData);
 
+    // const data = {
+    //     asset: 'ETH'
+    // };
+    // let depositsData = await exchange.getDepositAddress(data);
+    // debug(depositsData);
 
 }
 
