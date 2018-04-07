@@ -23,7 +23,7 @@ module.exports = {
     'BTCC': require('./lib/btcc'),
     'BTCMarkets': require('./lib/btcmarkets'),
     'BTCTrade': require('./lib/btctrade'),
-    'C-cex': require('./lib/ccex'),
+    'Ccex': require('./lib/ccex'),
     'Cexio': require('./lib/cexio'),
     'Cobinhood': require('./lib/cobinhood'),
     'Coinbene': require('./lib/coinbene'),
