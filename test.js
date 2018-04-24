@@ -1,17 +1,17 @@
 const debug = require('debug')('cointrage:exchanges:test');
 const exchanges = require('./index');
-const exchange = exchanges.Binance;
+const exchange = exchanges.Bittrex;
 
 const STANDARD_MAPPINGS = {
     'DAT': 'DATA'
 };
 
 async function init() {
-    // let markets = await exchange.getMarkets();
-    // debug(markets);
+    let markets = await exchange.getMarkets();
+    console.log(markets);
 
-    // let orderBook = await exchange.getOrderBook('BTC', 'ETH');
-    // debug(orderBook);
+    let orderBook = await exchange.getOrderBook('BTC', 'BCH');
+    console.log(orderBook);
 
     // let accountInfo = await exchange.getAccountInfo({});
     // debug(accountInfo);
