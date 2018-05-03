@@ -1,6 +1,6 @@
 const debug = require('debug')('cointrage:exchanges:test');
 const exchanges = require('./index');
-const exchange = exchanges.Bittrex;
+const exchange = exchanges.Allcoin;
 
 const STANDARD_MAPPINGS = {
     'DAT': 'DATA'
