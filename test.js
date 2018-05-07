@@ -10,7 +10,7 @@ async function init() {
     let markets = await exchange.getMarkets();
     console.log(markets);
 
-    let orderBook = await exchange.getOrderBook('BTC', 'BCH');
+    let orderBook = await exchange.getOrderBook('BTC', 'NEO');
     console.log(orderBook);
 
     // let accountInfo = await exchange.getAccountInfo({});
