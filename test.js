@@ -1,6 +1,6 @@
 const debug = require('debug')('cointrage:exchanges:test');
 const exchanges = require('./index');
-const exchange = exchanges.Allcoin;
+const exchange = exchanges.Bilaxy;
 
 const STANDARD_MAPPINGS = {
     'DAT': 'DATA'
@@ -10,7 +10,7 @@ async function init() {
     let markets = await exchange.getMarkets();
     console.log(markets);
 
-    let orderBook = await exchange.getOrderBook('BTC', 'NEO');
+    let orderBook = await exchange.getOrderBook('ETH', 'EOS');
     console.log(orderBook);
 
     // let accountInfo = await exchange.getAccountInfo({});

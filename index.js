@@ -75,6 +75,7 @@ module.exports = {
     'Okex': require('./lib/okex'),
     'Qryptos': require('./lib/qryptos'),
     'Tidex': require('./lib/tidex'),
-    'EtherDelta': require('./lib/etherdelta')
+    'EtherDelta': require('./lib/etherdelta'),
+    'Bilaxy': require('./lib/bilaxy')
 
 };
